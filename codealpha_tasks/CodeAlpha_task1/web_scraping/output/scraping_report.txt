@@ -1,0 +1,50 @@
+============================================================
+  CODEALPHA DATA ANALYTICS -- TASK 1: WEB SCRAPING REPORT
+============================================================
+
+-- Quotes Dataset (quotes.toscrape.com) --
+  Total quotes   : 100
+  Unique authors : 50
+  Total tags     : 232
+  Avg tags/quote : 2.32
+
+  Top 5 Authors:
+    Albert Einstein                10 quotes
+    J.K. Rowling                   9 quotes
+    Marilyn Monroe                 7 quotes
+    Dr. Seuss                      6 quotes
+    Mark Twain                     6 quotes
+
+-- Books Dataset (books.toscrape.com) --
+  Total books    : 1000
+  Avg price      : GBP 35.07
+  Cheapest book  : GBP 10.00
+  Most expensive : GBP 59.99
+  Avg rating     : 2.92 / 5
+  5-star books   : 196
+
+  Rating Distribution:
+    [*----]   226 books
+    [**---]   196 books
+    [***--]   203 books
+    [****-]   179 books
+    [*****]   196 books
+
+-- Combined Dataset --
+  Total records  : 1100
+  Sources        : 2
+  Item types     : quote, book
+
+-- Tools Used --
+  * BeautifulSoup4 + Requests  (Quotes scraper)
+  * BeautifulSoup4 + Requests  (Books scraper)
+  * Scrapy                     (Scrapy spider -- quotes)
+  * Pandas                     (Data cleaning & export)
+
+-- Datasets Saved --
+  web_scraping/datasets/quotes_dataset.csv
+  web_scraping/datasets/books_dataset.csv
+  web_scraping/datasets/combined_dataset.csv
+
+Task 1: Web Scraping -- COMPLETE
+============================================================
